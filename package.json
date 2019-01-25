@@ -1,0 +1,36 @@
+{
+  "name": "axios-all-in-one",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/axios-all-in-one.cjs.js",
+  "module": "dist/axios-all-in-one.esm.js",
+  "browser": "dist/axios-all-in-one.umd.js",
+  "wechat": "dist/axios-all-in-one.wechat.js",
+  "tt": "dist/axios-all-in-one.tt.js",
+  "baidu": "dist/axios-all-in-one.baidu.js",
+  "weex": "dist/axios-all-in-one.weex.js",
+  "alipay": "dist/axios-all-in-one.alipay.js",
+  "quickapp": "dist/axios-all-in-one.quickapp.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "pretest": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  
+  "dependencies": {
+    "follow-redirects": "^1.6.1",
+    "is-buffer": "^2.0.3"
+  },
+  "devDependencies": {
+    "rollup": "^1.1.2",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-jscc": "^1.0.0",
+    "rollup-plugin-json": "^3.1.0",
+    "rollup-plugin-node-resolve": "^4.0.0"
+  }
+}
